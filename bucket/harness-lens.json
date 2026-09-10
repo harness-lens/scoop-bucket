@@ -1,0 +1,23 @@
+{
+  "version": "0.0.5",
+  "description": "Evidence-backed local analysis of coding-agent harnesses",
+  "homepage": "https://github.com/harness-lens/cli",
+  "license": "MPL-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/harness-lens/cli/releases/download/v0.0.5/harness-lens-v0.0.5-x86_64-pc-windows-msvc.zip",
+      "hash": "2830583fda59d682b9559b9484a4cc57f31089303efacfef95157b517740b7b5"
+    }
+  },
+  "bin": "harness-lens.exe",
+  "checkver": {
+    "github": "https://github.com/harness-lens/cli"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/harness-lens/cli/releases/download/v$version/harness-lens-v$version-x86_64-pc-windows-msvc.zip"
+      }
+    }
+  }
+}
