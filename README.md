@@ -1,6 +1,8 @@
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 <!-- Copyright © 2026 Cristian Camargo Filho -->
 
+![Harness Lens](assets/harness-lens-banner.png)
+
 # Harness Lens Scoop Bucket
 
 The official [Scoop](https://scoop.sh/) bucket for [Harness Lens](https://github.com/harness-lens/cli), a local-first CLI that produces evidence-backed reports about coding-agent harnesses.
